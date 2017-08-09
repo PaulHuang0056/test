@@ -1,0 +1,138 @@
+/* 共用 */
+footer{background:linear-gradient(270deg, #F9CF9A 0%, #15110B 90%);
+               background: -moz-linear-gradient(270deg, #F9CF9A 0%, #15110B 90%);
+               background: -webkit-linear-gradient(270deg, #F9CF9A 0%, #15110B 90%);
+               background: -o-linear-gradient(270deg, #F9CF9A 0%, #15110B 100%);}
+
+.clear{clear: both;}
+
+.footer_title {color:#fff;
+               font-size: 1.6em;}
+
+
+.footer-topLeft_item{float: left;
+                     font-weight: 800;
+                     width: 33.333333%;
+                     text-align: center;}
+
+
+.footer-topLeft_item a{color:#504230;
+                       text-decoration: none;}
+
+.footer-topLeft_item a:hover{color:#EAC290;}
+
+.footer-topRight{text-align: center;}
+
+.footer-topRight img{display: block;
+                     width: 100%;}
+
+.footer-topRight-top_item{width: 23%;
+                          display: inline-block;}
+
+.footer-topRight-bottom_item{width: 25%;
+                             display: inline-block;}
+
+.footer-bottomRight-item{text-align: center;}
+
+.footer-bottomRight-item li:before{content: '/';
+                                   position: absolute;
+                                   width: 10px;
+                                   height: 15px;
+                                   top: 0;
+                                   left: 0;
+                                   font-size: 1.2em;
+                                   color:#806A4E;}
+
+.footer-bottomRight-item li:nth-child(1):before{display: none;}
+
+
+.footer-bottomRight-item li{display: inline-block;
+                            position: relative;}
+
+.footer-bottomRight-item li a{text-decoration: none;
+                              color:#806A4E;}
+
+.footer-bottomRight-item li a:hover{color:#EAC290;}
+
+.footer-bottomDeclare{color:#444;
+                      text-align: center;}
+
+/* 暫時隱藏 */
+#footer_section_06{display: none;}
+/* 暫時隱藏 End */
+
+/* 桌機 */
+@media(min-width:1024px){
+                          .footer-topLeft{display: inline-block;
+                                          float: left;
+                                          width: 50%;
+                                          margin-top:1.3%;}
+
+                          .footer-topLeft .footer_title{margin-bottom: 20%;}
+
+                          .footer-topLeft .footer_item{line-height: 2.6;}
+
+                          .footer-topRight .footer_title{margin: 2.5% 0;}
+
+                          .footer-topRight{display: inline-block;
+                                          float: left;
+                                          width: 50%;}
+
+                          .footer-topRight-top_item{min-height: 140px;}
+
+                          .footer-bottom{margin: 2% 2% 0 2%;}
+
+                          .footer-bottomLeft{width: 20%;display: inline-block;
+                                            float: left;}
+
+                          .footer-bottomLeft img{width: 100%;
+                                                 padding-left: 50%;}
+
+                          .footer-bottomRight{width: 80%;
+                                              display: inline-block;
+                                              float: left;
+                                              margin-top: 80px;}
+
+                           .footer-bottomRight-item{font-size: 1.2em;}
+
+                            .footer-bottomRight-item li{position: relative;
+                                                        padding-left:1%;}
+
+
+
+
+
+
+
+}
+
+
+
+
+/* 手機 */
+@media(max-width: 768px){
+
+
+                         .footer-topLeft{padding: 5% 0;}
+
+                          .footer-topLeft .footer_title{margin-bottom: 40%;}
+
+                          .footer-topLeft .footer_item{margin-top: 20%;}
+
+                          .footer-topRight .footer_title{margin-bottom: 5%;}
+
+                          .footer-topRight{padding: 5% 0;}
+
+                          .footer-bottom{margin: 5% 5% 0 5%;}
+
+                          .footer-bottomLeft{display: none;}
+
+                          .footer-bottomRight-item{font-size: .6em;
+                                                   line-height: 1.4;}
+
+                          .footer-bottomRight-item li{padding-left: 3%;}
+
+
+
+}
+
